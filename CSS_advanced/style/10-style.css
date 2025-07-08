@@ -1,3 +1,4 @@
+
 :root {
 	--color-primary: #d73953;
 	--color-black: #090909;
@@ -17,7 +18,7 @@
 	--line-height-small: 1.2;
 	--line-height-base: 1.5;
 	--line-height-big: 1.8;
-	--section-tagline-transform: uppercase;
+	--section-header-align: center;
 }
 html{
 	scroll-behavior: smooth;
@@ -32,6 +33,9 @@ body {
 a {
 	color: #161616;
 	text-decoration: none;
+}
+.section-header {
+	text-align: var(--section-header-align);
 }
 .visually-hidden{
 	display: none;
